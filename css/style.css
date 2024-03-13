@@ -2,7 +2,7 @@
 
 .inicio{}
 
-.especificos{background-color: rgb(96, 230, 96);
+.especificos{background-color: brown;
 color:black ;}
 
 .tecno{background-color: grey;}
@@ -29,12 +29,6 @@ color: azure;}
 .contenido-footer{display: flex;
 gap: 25rem;}
 
-.footer-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5rem;
-    color: var(--secondary-color);
-}
 
 .footer-bar{
     margin: auto;
