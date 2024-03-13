@@ -40,7 +40,7 @@ gap: 25rem;}
 .links{list-style: none;
     display: flex;
     gap: 40rem;
-    font-size: 110%;}
+    font-size: 100%;}
 
 
 .footer{color:white;}
@@ -56,6 +56,10 @@ body{background-color: rgb(99, 36, 36);}
     
 .fotoagro{text-align: center;}
 
+.tecnologias p {font-size: 120%;
+text-align: center;}
+
+.tecnologias h2 {text-align: center ;}
 
 
 
