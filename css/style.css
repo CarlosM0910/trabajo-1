@@ -1,105 +1,76 @@
 .imagen1{text-align: center;}
+/*el text align es para alinear la foto*/
 
-.inicio{background-color: rgb(73, 69, 69);}
+.inicio{background-color: rgb(73, 69, 69);}  
+/*le cambio el color de fondo de la seccion llamada inicio*/
 
 .especificos{background-color: rgb(54, 54, 54);
-color:rgb(255, 255, 255) ;}
+color:rgb(255, 255, 255) ;} 
+/*le cambio el color a la letra y tambien le doy su propio color de fondo  la seccion especificos*/
 
-.tecno{background-color: grey;}
+.tecno{background-color: grey;} 
+/*le cambio el color de fondo de la seccion llamada tecno*/
 
 .partealta{
 color: white;}
+/*le cambio el color de la letra al div parte alta*/
 
 .objetivogeneral{text-align: center;
 font-size: 130%;
 color: azure;}
+/*Estos cambios son para que el titulo "objetivo general" y su texto, se alineen en el centro,aumento el tamaño de la letra  y le pongo su color propio*/
 
 .objetivos-es{text-align: left;
     font-size: 130%;}
-    
-.tecnologias{text-align: left;
-        font-size: 100%;}
+/*Los objetivos especificos y su titulo los alineo a la izquierda y tambien le aumento el tamaño de fuente*/    
 
 .contenido1{font-size: 110%;}    
+/*aumento el tamaño de fuente*/
 
 .contenido2{font-size: 110%;}
-
-.contenido3{font-size: 110%;}
+/*tambien aumento el tamaño de fuente*/
 
 .contenido-footer{display: flex;
 gap: 25rem;}
+/*modifico el bloque que contiene los div con los datos para que,la distancia entre los div los manejo con el gap.Y para que queden orientados horizonalmente uso el display flex*/
 
 
 .footer-bar{
-    margin: auto;
     text-align: center;
     font-size: 1rem;}
-
-.partelinks{color: white;}
+/*aca alneo el texto para que quede centrado y el tamaño de la fuente lo uso en rem para que sea mas exacto*/
 
 .links{list-style: none;
     display: flex;
-    gap: 40rem;
-    font-size: 100%;}
+    gap: 40rem;}
+/*modifico los links,primero le quito el punto que tienen las listas con el estilo de lista,los acomodo horizontalmente con display flex,que haya un espacio entre ellos de 40rem,*/
 
 
 .footer{color:white;}
+/*aca le coloco el color que quiero al texto del pie de pagina*/
 
 body{background-color: rgb(26, 25, 25);}
+/*le pongo color de fondo al cuerpo de la pagina para que no hayan espacios sin color*/
 
-.inicio h3 {color:chartreuse;
-}
+.inicio h3 {color:chartreuse;}
+/*aca hago que el h3 del inicio osea el texto interagro tenga un color diferente*/
 
-.link a {
-    color: green;   
-    }
-    
+.link a {color: green;}
+/*hago que el texto de los links tenga su color,esto para que destaque*/
+
 .fotoagro{text-align: center;}
+/*aca alineo la foto para que quede centrado*/
 
 .tecnologias p {font-size: 120%;
 text-align: center;}
+/*aca modifico el parrafo del div tecnologias,para que aumente el tamaño de la letra y se centre*/
 
 .tecnologias h2 {text-align: center ;
 color: chartreuse;}
+/*aca hago que el h2 del div tecnologias tenga su propio color*/
 
 .objetivos-es h2{color: chartreuse;}
+/*se cambio el color del h2*/
 
 .objetivogeneral h2{color: chartreuse;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--<div class="action-btns">
-                    <button class="btn">Book Trip</button>
-                    <div class="story">
-                        <div class="video-image">
-                            <img src="assets/story.jpg" alt="story">
-                            <span><i class="ri-play-fill"></i></span>
-                        </div>
-                        <span>Watch our story</span>
-                    </div>
-                </div>-->>
+/*aca tambien se cambio el color del h2*/
