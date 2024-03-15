@@ -42,7 +42,7 @@ gap: 25rem;}
 
 .links{list-style: none;
     display: flex;
-    gap: 40rem;}
+    gap: 30rem;}
 /*modifico los links,primero le quito el punto que tienen las listas con el estilo de lista,los acomodo horizontalmente con display flex,que haya un espacio entre ellos de 40rem,*/
 
 
